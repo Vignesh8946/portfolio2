@@ -1,0 +1,213 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"poppins",sans-serif;
+}
+.color{
+   background-color:#1D232c;
+   color:white;
+   
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    
+    
+}
+.navbar-side{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    text-decoration: none;  
+}
+.name{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.bar{
+    display: none;
+}
+
+.navbar-link a{
+    text-decoration: none;
+    color:white;
+}
+.navbar-link a:hover{
+    color:gray;
+}
+
+.line{
+    background-color: white;
+    height:1px;
+    border:none;
+    width:100%;
+}
+
+.navbar-sides{
+    background-color: navy;
+    width:10%;
+    height: 100%;
+   padding:50px;
+   position:fixed;
+   top:0;
+   left:-60%;
+   transition:2s;
+}
+.navbar-link{
+    padding:10px;
+    
+}
+.xmark{
+    position:relative;
+    left:100%; 
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+  padding:10%;
+  
+}
+.right-side{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 30px;
+
+}
+.paragraph{
+    width:50%;
+    padding-top:30px;
+}
+.image{
+    
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    position:absolute;
+    left:60%;
+
+    bottom:20%;
+   
+   
+}
+
+.button{
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top:40px;
+   background-color: blue;
+    color:white;
+}
+
+
+.linkdin{
+   margin-top:40px;
+   
+   display:flex;
+   flex-direction: row;
+   gap:30px;
+   font-size: 30px;
+}
+
+
+/* about */
+
+.color-2{
+    background-color:#1D232c ;
+    color:white;
+}
+
+.about{
+    padding:8%;
+    
+    
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    
+}
+.image-2{
+    font-size:40px;
+  padding: 10px;
+   
+}
+.ram{
+    color:blue;
+    position: relative;
+    left:50%;
+    padding-top:30px;
+    font-style: italic;
+}
+
+.demo{
+    color:blue;
+    position: relative;
+    left:50%;
+    margin-top:30px;
+    font-style: italic;
+}
+
+.skills{
+    width:80%;
+    padding-top: 10%;
+    padding: 20PX;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+}
+.work{
+    padding:5%;
+    display:flex;
+    justify-content: center;
+    color:blue;
+    font-style:italic ;
+}
+
+
+.mani{
+    padding-top: 60px;
+    padding-left: 5%;
+    color:blueviolet
+}
+.work-1{
+    padding:10px;
+    gap:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.phone{
+    padding: 7%;
+    padding-left: 40%;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   gap:20px;
+    
+}
+.contact-1{
+    font-style: italic;
+    color:blue;
+    padding-left: 40%;
+    padding-top: 25px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .bar{
+        display:block;
+    }
+    .ram{
+        display:block;
+    }
+    
+}
